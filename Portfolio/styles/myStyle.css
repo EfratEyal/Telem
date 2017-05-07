@@ -1,0 +1,151 @@
+﻿body {
+    direction: ltr;
+    background-image: url('../images/tileable-classic-nebula-space-patterns-6.jpg');
+    background-attachment: fixed;
+}
+
+#container {
+    margin: 0 auto;
+    width: 960px;
+    align-items: center;
+}
+
+/*navigation bar design and hover effects*/
+
+ul li {
+    font-family: 'Almendra Display', cursive;
+    display: inline-block;
+    float: none;
+    list-style-type: none;
+    width: 180px;
+    height: 100%;
+    text-align: center;
+    margin-top: 15px;
+}
+
+li a {
+    text-decoration: none;
+    display: block;
+    color: aliceblue;
+    text-align: center;
+    padding: 20px 0px 20px 0px;
+    font-size: 25pt;
+    background-color: rgba(0,0,0,0.5);
+    border-radius: 50px;
+}
+
+    li a:hover {
+        border: solid lightgray 1px;
+        background-color: rgba(204, 24, 255, 0.2);
+        transition: 1s;
+    }
+
+ul li #active {
+    border: solid lightgray 1px;
+    background-color: rgba(204, 24, 255, 0.2);
+}
+
+/*Headlines Design*/
+header {
+    align-content: center;
+}
+
+h1 {
+    display: block;
+    position: center;
+    text-align: center;
+    font-size: 150px;
+    color: aliceblue;
+    font-family: 'Almendra Display', cursive;
+    margin-top: 50px;
+    position: center;
+}
+
+h2 {
+    margin-top: 40px;
+    display: block;
+    position: center;
+    font-size: 75px;
+    color: aliceblue;
+    font-family: 'Almendra Display', cursive;
+    text-align: center;
+    padding: 5px 0px 5px 0px;
+}
+
+/*Action Button in main page - Design*/
+#bunny {
+    background-image: url('../images/011.gif');
+    background-repeat: no-repeat;
+    background-position: bottom;
+    height: 40px;
+    padding-top: 10px;
+}
+
+#button {
+    display: block;
+    align-content: center;
+    color: aliceblue;
+    font-family: 'Almendra Display', cursive;
+    height: 40px;
+    padding-top:10px;
+    width: 254px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    border: solid lightgray 1px;
+    border-radius: 50px;
+    margin-left: 349px;
+}
+
+a {
+    text-decoration: none;
+}
+
+#button a {
+    width: 300px;
+}
+
+#button:hover {
+    background-color: rgba(204, 24, 255, 0.2);
+    transition: 1s;
+}
+
+/*Paragraph Design*/
+p {
+    display: block;
+    font-family: 'Philosopher', sans-serif;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 50px;
+    padding: 25px 25px 25px 25px;
+    margin: 0 auto;
+    width: 800px;
+    text-align: left;
+    color: aliceblue;
+    font-size: 20pt;
+}
+
+/*Angel photo Design*/
+#angelphoto {
+    background-image: url('../images/SelfPortrairt-EfratEyal.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 960px;
+    height: 1400px;
+}
+
+/*Remake photo Design*/
+#denial {
+    background-image: url('../images/Denial18RGB.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 960px;
+    height: 1400px;
+}
+
+/*audio play design*/
+audio {
+    width: 960px;
+    display: block;
+    position: center;
+    padding: 10px 10px 10px 10px;
+}
