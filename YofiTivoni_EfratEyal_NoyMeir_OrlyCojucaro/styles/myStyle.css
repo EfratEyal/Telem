@@ -1,0 +1,1018 @@
+﻿
+/*~~~~~~~~~~~~~~~~~~~~~~CSS HOMEPAGE*/
+
+body {
+    font-family: 'Rubik', sans-serif;
+}
+
+#container {
+    width: 960px;
+    margin: 0 auto;
+    background-color: #F1E9E3;
+    position: relative;
+}
+
+.notaloud {
+    cursor: not-allowed;
+}
+
+#logoRabbit {
+    position: absolute;
+    left: 200px;
+    bottom: -89px;
+    float: right;
+    display: inline-block;
+    height: 100px;
+    width: 70px;
+}
+
+/*הארנב בעמוד הבית הוא בה1 לכן ההגדרות לא חלו עליו והוא זז*/
+h1 #logoRabbit {
+    bottom: -75px;
+}
+
+#LogoFirstLine {
+    font-size: 28pt;
+    display: inline-block;
+    position: absolute;
+    top: 20px;
+}
+
+#LogoSecondLine {
+    top: 65px;
+    position: absolute;
+}
+
+#logo {
+    top: 30px;
+}
+
+#MainLogoLink:link {
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+}
+
+#MainLogoLink:visited {
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+}
+
+#MainLogoLink:hover {
+    text-decoration: none;
+    color: #774573;
+}
+
+#headermainpage .logo {
+    width: 200px;
+    margin-right: 100px;
+    font-size: 14.5pt;
+    display: inline-block;
+}
+
+#headermainpage image {
+    width: 50px;
+}
+
+#CovrPhotoHomePage {
+    background-image: url('../images/HomeCover.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 975px;
+    height: 330px;
+    background-position: center;
+    margin-right: 10px;
+    margin-top: 30px;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+#CovrPhotoHomePage a {
+    background-image: url('../images/Logo.png');
+    background-repeat: no-repeat;
+    display: block;
+    background-size: 70px;
+    width: 250px;
+    padding-top: 150px;
+    margin: -200px 300px auto auto;
+    padding-right: 80px;
+}
+
+    #CovrPhotoHomePage a:hover {
+        transition-property: background-image;
+        background-image: url('../images/fur.png');
+        transition-duration: 0.5s;
+        transition-timing-function: linear;
+        color: white;
+    }
+
+#CovrPhotoHomePage span {
+    display: block;
+    width: 250px;
+    text-align: center;
+    padding: 5px 0 5px 0;
+    font-size: 14pt;
+    background-color: #7D707A;
+    color: white;
+    border-radius: 40pt;
+}
+
+.FollowTheRabbit:hover {
+    color: black;
+}
+
+#NavBlocks ul {
+    height: 100px;
+}
+
+nav ul li a {
+    padding: 5px 20px 5px 20px;
+    background-color: #7D707A;
+    color: white;
+    border-radius: 40pt;
+    width: 100px;
+    text-align: center;
+    font-size: 12pt;
+}
+
+nav ul li a:focus {
+    padding: 5px 20px 5px 20px;
+    background-color: rgb(63,0,58);
+    color: white;
+    border-radius: 40pt;
+    width: 100px;
+    text-align: center;
+    font-size: 12pt;
+}
+
+#rabbit {
+    background-image: url('../images/HomeNavRabbit.png');
+    background-repeat: no-repeat;
+    display: block;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-top: 50px;
+    margin-right: 10px;
+}
+
+    nav ul li a:hover, nav ul li a:active, nav ul li a.open {
+        background-color: rgb(63,0,58);
+        color: white;
+    }
+
+#cultuvation {
+    margin-right: 200px;
+}
+
+#CovrPhotoHomePage p {
+    font-size: 24pt;
+    width: 350px;
+    margin-top: 50px;
+    margin-right: 60px;
+}
+
+#CovrPhotoHomePage h2 {
+    font-size: 40pt;
+    width: 150px;
+    height: 30px;
+    font-weight: bolder;
+    margin-right: 30px;
+    padding-top: 20px;
+    color: #7D707A;
+}
+
+#VeganExamplesMainPage {
+    padding-top: 55px;
+}
+
+.float {
+    display: inline-block;
+    margin-right: 50px;
+    background-color: #E5DED8;
+    width: 255px;
+    height: 290px;
+}
+
+    .float a {
+        color: black;
+    }
+
+    .float h2 {
+        font-size: 18pt;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .float p {
+        text-align: center;
+        font-size: 12pt;
+    }
+
+    .float:hover {
+        background-color: rgb(214,194,178);
+    }
+
+footer {
+    margin-top: 20px;
+    text-align: center;
+    background-color: #F1E9E3;
+}
+
+    footer a {
+        color: black;
+        text-decoration: none;
+        font-size: 12pt;
+        display: inline-block;
+        margin-bottom: 7px;
+    }
+
+        footer a:hover {
+            color: black;
+        }
+
+/*~~~~~~~~~~~~~~~~~~~~~ END CSS HOMEPAGE*/
+
+/*~~~~~~~~~~~~~~~~~~~~~ CSS Cultivation*/
+
+header #BeautyCoverPhoto {
+    background-image: url('../images/CulCover.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 347px;
+    width: 970px;
+    margin: 30px 15px 20px 0;
+}
+
+#HeadingCultivation {
+    background-color: white;
+    font-size: 35pt;
+    padding: 10px;
+    width: 170px;
+    text-align: center;
+    position: absolute;
+    right: 165px;
+    top: 230px;
+}
+
+.HeadingInArticle {
+    font-size: 18pt;
+}
+
+.RegularText {
+    font-size: 12pt;
+    list-style: decimal;
+    margin-right: 25px;
+    line-height: 35px;
+}
+
+a {
+    color: darkblue;
+}
+
+#Shape {
+    background: #AF989D;
+    display: inline-block;
+    height: 60px;
+    margin-bottom: 35px;
+    position: absolute;
+    right: 360px;
+    width: 250px;
+    z-index: 1;
+}
+
+    #Shape:before {
+        border-top: 35px solid #AF989D;
+        border-left: 125px solid transparent;
+        border-right: 125px solid transparent;
+        content: "";
+        height: 0;
+        left: 0;
+        position: absolute;
+        top: 60px;
+        width: 250px;
+        z-index: 1;
+    }
+
+.DarkerColor h3 {
+    font-size: 20pt;
+    text-align: center;
+    position: relative;
+    right: 5px;
+    top: 20px;
+    z-index: 2;
+}
+
+
+#LeftParagraph1 {
+    font-size: 12pt;
+    padding-right: 60px;
+    padding-bottom: 100px;
+    width: 420px;
+    z-index: 1;
+    line-height: 35px;
+    position: relative;
+    top: -75px;
+}
+
+.Inline {
+    display: inline-block;
+}
+
+#One:first-letter {
+    font-size: 32pt;
+    font-weight: bold;
+}
+
+.StageOneList {
+    font-size: 12pt;
+    list-style: disc;
+}
+
+#FirstArticlePhoto {
+    background-image: url('../images/CulStage1.png');
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 460px;
+    z-index: -1;
+    margin-right: 26px;
+    margin-top: -15px;
+}
+
+.DarkerColor {
+    background-color: #D4CFCC;
+    height: 350px;
+}
+
+#Two:first-letter {
+    font-size: 32pt;
+    font-weight: bold;
+}
+
+.RightParagraph {
+    width: 460px;
+    margin-right: 26px;
+    margin-top: 26px;
+    line-height: 35px;
+    font-size: 12pt;
+}
+
+#SecondArticlePhoto {
+    background-image: url('../images/CulSecondSectionImage.png');
+    background-repeat: no-repeat;
+    background-size: 310px;
+    height: 650px;
+    width: 490px;
+    position: absolute;
+    top: 1065px;
+    right: 440px;
+}
+
+#StageTwoUl {
+    margin-top: 40px;
+}
+
+#secondParSecondArticle {
+    padding-top: 35px;
+}
+
+#Three:first-letter {
+    font-size: 32pt;
+    font-weight: bold;
+}
+
+#ThirdArticlePhoto {
+    background-image: url('../images/CulTip.jpg');
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 460px;
+    margin-right: 26px;
+    margin-top: 26px;
+}
+
+#LeftParagraph3 {
+    font-size: 12pt;
+    width: 420px;
+    line-height: 35px;
+    position: absolute;
+    top: 1770px;
+    right: 530px;
+}
+
+#ShapeQuestions {
+    background: #AF989D;
+    display: inline-block;
+    height: 60px;
+    /*margin-right: 360px;*/
+    margin-bottom: 35px;
+    position: relative;
+    top: 0px;
+    right: 360px;
+    width: 250px;
+}
+
+    #ShapeQuestions:before {
+        border-top: 35px solid #AF989D;
+        border-left: 125px solid transparent;
+        border-right: 125px solid transparent;
+        content: "";
+        height: 0;
+        left: 0;
+        position: absolute;
+        top: 60px;
+        width: 250px;
+    }
+
+#QuestionsSection h3 {
+    font-size: 20pt;
+    text-align: center;
+    position: relative;
+    right: 10px;
+    bottom: 100px;
+}
+
+.BrightherSection {
+    display: inline-block;
+    vertical-align: text-top;
+    padding-top: 170px;
+}
+
+#First {
+    font-size: 12pt;
+    width: 420px;
+    line-height: 35px;
+    position: absolute;
+    top: 2010px;
+    right: 26px;
+}
+
+#Second {
+    font-size: 12pt;
+    width: 420px;
+    line-height: 35px;
+    position: absolute;
+    top: 2010px;
+    right: 530px;
+}
+
+#QuestionsArticlePhoto {
+    background-image: url('../images/LALINE.jpg');
+    background-repeat: no-repeat;
+    background-size: 440px 350px;
+    height: 350px;
+    width: 460px;
+    position: absolute;
+    right: 485px;
+    top: 2308px;
+}
+
+#Third {
+    width: 420px;
+    font-size: 12pt;
+    line-height: 35px;
+    position: absolute;
+    top: 2400px;
+    right: 26px;
+}
+
+#QuestionsSection {
+    height: 620px;
+}
+
+#Recommendation {
+    font-size: 12pt;
+    width: 420px;
+    line-height: 35px;
+    position: absolute;
+    top: 2750px;
+    right: 500px;
+}
+
+#RabitReccomenations {
+    position: absolute;
+    top: 2725px;
+    right: 70px;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~ END CSS Cultivation*/
+
+/*~~~~~~~~~~~~~~~~~~~~~ CSS IDF*/
+
+header #IDFCoverPhoto {
+    background-image: url('../images/IDFCoverPhoto.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 347px;
+    width: 970px;
+    margin: 30px 15px 20px 0;
+}
+
+#HeadingIDF {
+    background-color: white;
+    font-size: 35pt;
+    padding: 10px;
+    width: 170px;
+    text-align: center;
+    position: absolute;
+    right: 165px;
+    top: 230px;
+}
+
+#FirstParIDF {
+    font-size: 18pt;
+    padding-right: 26px;
+    padding-bottom: 20px;
+    padding-top: 11px;
+}
+
+#HowToHandleIDF {
+    background-color: #D4CFCC;
+    height: 385px;
+}
+
+#FirstIDFPhoto {
+    background-image: url('../images/IDFVeganFood.jpg');
+    background-repeat: no-repeat;
+    margin-right: 26px;
+    margin-top: 26px;
+    z-index: -1;
+    background-size: 470px 330px;
+    height: 330px;
+    width: 458px;
+}
+
+#LeftParagraphNearFirstPhoto {
+    font-size: 12pt;
+    width: 420px;
+    line-height: 35px;
+    position: absolute;
+    top: 740px;
+    right: 530px;
+}
+
+#HowToHandleIDF h3 {
+    position: absolute;
+    right: 410px;
+    z-index: 2;
+}
+
+#SecondIDFPhoto {
+    background-image: url('../images/FoldersIDF.jpg');
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 460px;
+    margin-right: 482px;
+    margin-top: 26px;
+    background-size: 470px 330px;
+}
+
+#RightParagraphNearSecondPhoto {
+    font-size: 12pt;
+    width: 420px;
+    line-height: 35px;
+    position: absolute;
+    top: 1070px;
+    right: 26px;
+}
+
+#HowToHandleIDF2nd {
+    height: 350px;
+}
+
+#DarkerBackgroundIDF {
+    background-color: #D4CFCC;
+    height: 300px;
+}
+
+#Problem1 {
+    font-size: 18pt;
+    width: 420px;
+    line-height: 35px;
+    position: absolute;
+    top: 1420px;
+    right: 26px;
+    width: 400px;
+}
+
+#Solution1 {
+    margin-right: 25px;
+    line-height: 35px;
+    width: 450px;
+    position: absolute;
+    right: 416px;
+    top: 1380px;
+}
+
+.RegularTextIDF {
+    font-size: 12pt;
+    list-style: decimal;
+    line-height: 35px;
+    margin-right: 15px;
+}
+
+    .RegularTextIDF:first-child {
+        margin-bottom: 10px;
+    }
+
+#IDFClothes {
+    height: 350px;
+}
+
+#ShapeIDF {
+    background: #AF989D;
+    display: inline-block;
+    height: 60px;
+    margin-bottom: 35px;
+    position: absolute;
+    right: 360px;
+    top: 1640px;
+    width: 250px;
+}
+
+    #ShapeIDF:before {
+        border-top: 35px solid #AF989D;
+        border-left: 125px solid transparent;
+        border-right: 125px solid transparent;
+        content: "";
+        height: 0;
+        left: 0;
+        position: absolute;
+        top: 60px;
+        width: 250px;
+    }
+
+#IDFClothes h3 {
+    position: absolute;
+    right: 435px;
+    z-index: 2;
+}
+
+#RightParagraphIDFClothes {
+    font-size: 18pt;
+    width: 420px;
+    line-height: 35px;
+    position: absolute;
+    top: 1760px;
+    right: 26px;
+    width: 300px;
+}
+
+.LeftParagraphIDFClothes {
+    font-size: 12pt;
+    margin-right: 25px;
+    line-height: 35px;
+    width: 450px;
+    position: absolute;
+    right: 600px;
+    top: 1730px;
+    padding-right: 10px;
+}
+
+    .LeftParagraphIDFClothes li:first-child {
+        list-style-image: url('../images/IDFhelmet.png');
+        list-style-position: outside;
+    }
+
+    .LeftParagraphIDFClothes li:nth-child(2) {
+        list-style-image: url('../images/IDFsandal1.png');
+        ;
+        list-style-position: outside;
+    }
+
+    .LeftParagraphIDFClothes li:nth-child(3) {
+        list-style-image: url('../images/IDFkumta.png');
+        ;
+        list-style-position: outside;
+    }
+
+    .LeftParagraphIDFClothes li:nth-child(4) {
+        list-style-image: url('../images/IDFSleeping Bag.png');
+        ;
+        list-style-position: outside;
+    }
+
+
+.RabbitRecLogoIDF {
+    margin-right: 100px;
+}
+
+.HeadingInRabbitRecIDF {
+    font-size: 18pt;
+    width: 420px;
+    line-height: 35px;
+    position: absolute;
+    top: 2040px;
+    right: 500px;
+}
+
+.RabbitRecommandationsIDF {
+    font-size: 12pt;
+    width: 420px;
+    line-height: 35px;
+    position: absolute;
+    top: 2120px;
+    right: 500px;
+    margin-bottom: 50px;
+}
+
+/*~~~~~~~~~~~~~~~~~~ END OF IDF*/
+
+/*~~~~~~~~~ ABOUT US*/
+#aboutUsCover {
+    background-image: url('../images/x about us.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 347px;
+    width: 970px;
+    margin: 30px 15px 20px 0;
+    z-index: 1;
+}
+
+#abouUs {
+    z-index: 2;
+    background-color: white;
+    font-size: 35pt;
+    padding: 10px;
+    width: 400px;
+    text-align: center;
+    position: absolute;
+    right: 165px;
+    top: 230px;
+}
+
+#team{
+    background-image: url('../images/team.png');
+    height:259px;
+    width:700px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%; 
+}
+
+
+#HIT {
+    background-image: url('../images/HitLogo.png');
+    background-repeat: no-repeat;
+    height: 150px;
+    width: 200px;
+    background-size: 100%;
+    margin-top: 15px;
+}
+
+/*~~~~~~~~~ CONTACT US*/
+#contactCover {
+    background-image: url('../images/x contact.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 347px;
+    width: 970px;
+    margin: 30px 15px 20px 0;
+    z-index: 1;
+}
+
+#contactUs {
+    z-index: 2;
+    background-color: white;
+    font-size: 35pt;
+    padding: 10px;
+    width: 400px;
+    text-align: center;
+    position: absolute;
+    right: 165px;
+    top: 230px;
+}
+
+.InnerPagesShortParagraphs {
+    padding: 26px;
+    width: 800px;
+}
+
+/*~~~~~~~~~ SITE MAP*/
+#SiteMapCover {
+    background-image: url('../images/x site map.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 347px;
+    width: 970px;
+    margin: 30px 15px 20px 0;
+    z-index: 1;
+}
+
+#SiteMap {
+    z-index: 2;
+    background-color: white;
+    font-size: 35pt;
+    padding: 10px;
+    width: 400px;
+    text-align: center;
+    position: absolute;
+    right: 165px;
+    top: 230px;
+}
+/*~~~~~~~~~~~~~~~~~~ END OF Site Map*/
+
+/*~~~~~~~~~ recommendation */
+#recommendationCoverPhoto {
+    background-image: url('../images/recommendationCoverPhoto.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 347px;
+    width: 970px;
+    margin: 30px 15px 20px 0;
+    z-index: 0;
+}
+
+#Headingrec {
+    background-color: white;
+    font-size: 35pt;
+    padding: 10px;
+    width: 370px;
+    text-align: center;
+    margin-right: 160px;
+    margin-top: -60px;
+    z-index: -1;
+}
+
+#h1rabbit {
+    background-image: url('../images/recommendationCoverRabbit.png');
+    display: inline-block;
+    background-repeat: no-repeat;
+    margin-right: 405px;
+    margin-top: 20px;
+    width: 150px;
+    height: 150px;
+    z-index: -2;
+}
+
+#recexplain {
+    font-size: 16pt;
+    width: 800px;
+    margin-right: 80px;
+    /*~~~~~~~~~ END OF Recommendation */
+}
+/*~~~~~~~~~~~~~~ Carousel*/
+
+#carousel1 {
+    background-color: rgb(222,219,221);
+    border: 1px solid rgb(131,95,119);
+    color: black;
+    text-shadow: none;
+    margin: 20px 120px 0 0;
+    width: 330px;
+    height: 400px;
+    font-size: 11pt;
+    padding-top: 10px;
+}
+
+#carousel3 {
+    background-color: rgb(222,219,221);
+    border: 1px solid rgb(131,95,119);
+    color: black;
+    text-shadow: none;
+    margin: 20px 120px 0 0;
+    width: 330px;
+    height: 400px;
+    font-size: 11pt;
+    padding-top: 10px;
+}
+
+#carousel2, #carousel4 {
+    background-color: rgb(222,219,221);
+    border: 1px solid rgb(131,95,119);
+    color: black;
+    text-shadow: none;
+    margin: -400px 520px 0px 0;
+    width: 330px;
+    height: 400px;
+    font-size: 11pt;
+    padding-top: 10px;
+}
+
+.item {
+    width: 150%;
+    padding-top: 60px;
+}
+
+.rtl .carousel-control.left, .rtl .carousel-control.right {
+    background: none;
+}
+
+.rtl .carousel-indicators {
+    margin-left: 200px;
+}
+
+.carousel-caption, .carousel-control {
+    color: black;
+    text-shadow: none;
+    text-align: right;
+}
+
+.carousel-indicators li {
+    background-color: #b7b7b7;
+    border-color: #b7b7b7;
+}
+
+.carousel-indicators .active {
+    background-color: rosybrown;
+    border-color: rgb(186,165,152);
+}
+
+.carousel-control:hover, .carousel-control:focus {
+    color: #54a7bc;
+}
+
+.glyphicon-menu-right, .glyphicon-menu-left {
+    top: 180px;
+    right: 10px;
+}
+
+.rtl .carousel-caption {
+    right: 50px;
+}
+
+.mainh3 {
+    background: #AF989D;
+    display: inline-block;
+    height: 40px;
+    text-align: center;
+    position: absolute;
+    right: 30px;
+    top: -20px;
+    width: 250px;
+    z-index: 1;
+}
+
+    .mainh3:before {
+        border-top: 35px solid #AF989D;
+        border-left: 125px solid transparent;
+        border-right: 125px solid transparent;
+        content: "";
+        height: 0;
+        left: 0;
+        position: absolute;
+        top: 40px;
+        width: 250px;
+        z-index: 1;
+    }
+/*~~~~~~~~~~~~~~ END OF Carousel*/
+
+/*~~~~~~~~~~~~~~ נגישות*/
+.accessibility {
+    position: absolute;
+    left: -99999px;
+    height: 10px;
+    width: 10px;
+}
+
+#skip {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    margin-left: 0;
+    text-align: center;
+    list-style: outside none;
+}
+
+    #skip li {
+        list-style-type: none;
+    }
+
+    #skip a {
+        /*left: -99999px;*/
+        z-index: -1;
+        /*position:relative;*/
+        top: 20px;
+        color:#F1E9E3;
+        font-size:2pt;
+        }
+
+        #skip a:focus, #skip a:active {
+            position: relative;
+            left: 0;
+            z-index: 9999;
+            width: 75%;
+            height: auto;
+            margin: 0 auto;
+            padding: 30px 45px;
+            text-align: center;
+            text-decoration: none;
+            letter-spacing: -4px !important;
+            font: bold 50px "Arial", "Freesans", sans-serif !important;
+            color: black;
+            background-color: white;
+            border: 2px dotted #ffb4db;
+        }
+
+        #skip a:hover {
+            text-decoration: none;
+        }
+/*~~~~~~~~~~~~~~ סוף נגישות*/
